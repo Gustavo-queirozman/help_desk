@@ -10,6 +10,5 @@ class GetMailController extends Controller
 
     public function index(){
         $emails = new GetMail;
-        return $emails;
     }
 }
